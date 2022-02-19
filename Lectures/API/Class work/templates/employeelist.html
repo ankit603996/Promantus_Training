@@ -1,0 +1,16 @@
+<html>
+   <body>
+      <h1>Lecture</h1>
+      <h2>Show Demo for Flask</h2>
+      <h3>{{ name }}</h3>
+      <h3>{{ name2 }}</h3>
+      <table border = 1>
+         {% for key, value in employeelist.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+</html>

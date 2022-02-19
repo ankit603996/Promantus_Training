@@ -1,0 +1,46 @@
+Hello Team,
+
+There is a change in the dataset for assignment. Instead of hotel industry data, please use backorder data. Below is the link for data set and description for data set.
+
+
+Predict_Backorder.docx
+
+Test_Dataset_v2.csv
+
+Training_Dataset_v2.csv
+
+
+
+
+
+Hi Team,
+
+Hope you are doing well. 
+
+Now, that we have covered supervised machine learning algorithms, model development and deployment in azure data bricks, web-app development through flask in a local system, and Calling/Utilization of APIs in local python. As a data scientist, now you are able to develop an end-end solution. To assess your understanding we would like you all to work on a similar problem/assignment (Deadline is tomorrow EOD). For this, you can use all of the codes/templates that have been shared with you. 
+
+Details are as follows:
+
+Use azure data bricks to perform the below steps :
+1. You need to take hotel industry data (attached in the email).
+2. Apply data preprocessing and data preparation steps for the development of a machine learning model where your target variable is 'is_cancelled'.
+3. Apply and validate 3 different algorithms (as per your choice) for performance comparison and develop a final model on train data using a best algorithm. (Don't worry about ultra-high accuracy)
+4. Log, register, and deploy the model on data bricks.
+
+Use python in the local system:
+1. Create a web app using flask that should test the above-deployed ml model using rest API endpoints by taking a sample input data and perform scoring (prediction). With the help of HTML templates that shared with you create three web pages :
+a. First page home page showing 'Welcome data science team'
+b. Second page that takes input for machine learning model (Inputs should be compatible )
+c. Third page should show output/scoring using rest endpoints and input data.
+
+Following should be your submission on google classroom :
+1. Azure data bricks python script 
+2. Your flask python script (.py file)
+3. Screenshot of each webpage of the web app.
+
+Share your submission under google classroom assignment 'End to End model development and consumption' .
+
+We will assess each of your submissions during Wednesday(1 Sep 2021) session. Let me know if there is any conflict.
+
+Thanks
+Ankit
