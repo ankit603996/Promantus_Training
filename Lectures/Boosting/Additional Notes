@@ -1,0 +1,7 @@
+https://www.quora.com/Whats-the-difference-between-boosting-and-bagging
+
+We do not use bootstrap sampling in boosting
+
+Boosting: You might have already guessed that in boosting we use high bias models. Bootstrapping is not used in boosting. We take a sample of data points from our dataset and train a base learner. The learner is then tested on whole dataset and the misclassified points(or the high error points) are marked.
+Now, for second learner to be trained, we assign more weights to the misclassified (or high error) points. It means they have a higher chances of getting in the sample used for next training. This way, the the second learner focuses more on the misclassified points (after all they are difficult to classify!) during its training. Now, for testing, the aggregate result of the two learners is taken and again the misclassified points are marked and assigned more weights. This process is repeated till we get the desired number of learners.
+This way boosting reduces the bias of a high bias learner.
